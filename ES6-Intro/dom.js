@@ -19,4 +19,5 @@ document.getElementById('add-friend').addEventListener('click', function () {
     <h3 class="friend-name">new friend</h3>
                 <p>something new added</p>
     `
+    friendContainer.appendChild(friend);
 });
